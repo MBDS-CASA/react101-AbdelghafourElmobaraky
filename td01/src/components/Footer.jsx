@@ -1,7 +1,8 @@
 function Footer() {
+    const now = new Date();
   return (
     <footer>
-      <p>Tous droits réservés - Abdelghafour ELMOBARAKY</p>
+      <p>© {now.getFullYear()} - Abdelghafour ELMOBARAKY, Tous droits réservés.</p>
     </footer>
   );
 }
