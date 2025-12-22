@@ -28,11 +28,20 @@ function Content() {
   )
 }
 
+function footer() {
+  return (
+    <footer>
+      <p>Tous droits réservés - Abdelghafour ELMOBARAKY</p>
+    </footer>
+  );
+}
+
 function App() {
   return (
     <>
       {header()}
       {Content()}
+      {footer()}
     </>
   )
 }
