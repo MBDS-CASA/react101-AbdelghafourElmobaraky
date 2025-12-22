@@ -148,3 +148,18 @@ main h2 {
 #tab-content code {
   font-size: 1rem;
 }
+
+footer {
+  text-align: center;
+  margin-top: 5rem;
+  padding: 2rem 0;
+  border-top: 1px solid #4a2d64; 
+  color: #8964b0;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
