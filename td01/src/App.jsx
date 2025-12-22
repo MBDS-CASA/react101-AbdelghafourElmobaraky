@@ -16,10 +16,23 @@ function header() {
   );
 }
 
+function Content() {
+  const [count, setCount] = useState(0)
+
+  return (
+    <>
+      <p>
+        Ici, nous afficherons des informations interessantes :) 
+      </p>
+    </>
+  )
+}
+
 function App() {
   return (
     <>
       {header()}
+      {Content()}
     </>
   )
 }
