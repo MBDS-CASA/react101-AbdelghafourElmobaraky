@@ -3,7 +3,6 @@ import studentData from '../assets/data.json';
 
 function TodoList() {
     const [index, setIndex] = useState(0);
-
     const currentUser = studentData[index];
 
     return (
@@ -29,11 +28,11 @@ function TodoList() {
                 </tbody>
             </table>
             <div>
-            <button onClick={() => {
-                setIndex((index + 1) % studentData.length);
-            }}>
-                changer d'étudiant
-            </button>
+                <button onClick={() => {
+                    setIndex((index + 1) % studentData.length);
+                }}>
+                    changer d'étudiant
+                </button>
             </div>
         </div>
     );
