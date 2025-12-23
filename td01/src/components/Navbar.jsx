@@ -7,17 +7,16 @@ import Button from '@mui/material/Button';
 import Box from '@mui/material/Box';
 
 const Navbar = () => {
-    // Style commun pour les boutons afin d'éviter la répétition
     const navLinkStyle = {
-        color: 'var(--text-secondary)', // Gris défini dans votre CSS
+        color: 'var(--text-secondary)', 
         fontFamily: 'Roboto Condensed, sans-serif',
         fontWeight: 700,
         textTransform: 'uppercase',
         fontSize: '0.95rem',
-        mx: 1, // Marge horizontale
+        mx: 1, 
         '&:hover': {
-            color: 'var(--text-accent)', // Bleu défini dans votre CSS
-            backgroundColor: 'transparent' // Évite le fond gris moche par défaut de MUI
+            color: 'var(--text-accent)', 
+            backgroundColor: 'transparent' 
         }
     };
 
@@ -25,9 +24,9 @@ const Navbar = () => {
         <AppBar 
             position="sticky" 
             sx={{ 
-                backgroundColor: 'var(--bg-panel)', // Utilise le BLANC de votre CSS
-                color: 'var(--text-primary)',       // Utilise le GRIS FONCÉ de votre CSS
-                boxShadow: '0 2px 4px rgba(0,0,0,0.05)', // Ombre légère identique au CSS
+                backgroundColor: 'var(--bg-panel)', 
+                color: 'var(--text-primary)',       
+                boxShadow: '0 2px 4px rgba(0,0,0,0.05)', 
                 borderBottom: '1px solid var(--border-color)'
             }}
         >
